@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "//nishantsharma24.github.io//tutedude/static/css/main.24f3fef3.css",
+    "main.js": "//nishantsharma24.github.io//tutedude/static/js/main.17891ab1.js",
+    "index.html": "//nishantsharma24.github.io//tutedude/index.html",
+    "main.24f3fef3.css.map": "//nishantsharma24.github.io//tutedude/static/css/main.24f3fef3.css.map",
+    "main.17891ab1.js.map": "//nishantsharma24.github.io//tutedude/static/js/main.17891ab1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24f3fef3.css",
+    "static/js/main.17891ab1.js"
+  ]
+}
