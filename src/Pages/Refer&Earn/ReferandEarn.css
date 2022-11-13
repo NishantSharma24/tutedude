@@ -1,0 +1,169 @@
+.content{
+    margin-left: 292px;  
+    margin-top: 34px;
+}
+
+/* Dashboard */
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 120px;
+}
+
+
+/* present inside the dashboard */
+.balance{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 486px;
+    height: 188px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+/* Balance items*/
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 45px;
+}
+.item .heading{
+    color: #800080;
+    font-size: 14px;
+}
+.item{
+    font-size: 32px;
+}
+.withdraw-balance{
+    color: white;
+    background-color: #800080;
+    box-sizing: border-box;
+    width: 180px;
+    height: 40px;
+    padding: 8px 16px;
+    border-color: #800080;
+    border-radius: 20px;
+}
+
+/* Referral part */
+.referral .heading{
+    color: #800080;
+    font-weight: 600;
+    font-size: 24px;
+}
+.referral{
+    display: flex;
+    flex-direction: column;
+    width: 486px;
+    height: 188px;
+    gap:10px;  
+}
+.referral-code .code{
+    color: #800080;
+    font-size: 20px;
+}
+.referral-code{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 358px;
+    height: 60px;
+    justify-content: space-around;
+    padding: 0px 19px;
+    background: linear-gradient(#fff, #fff) padding-box,
+              linear-gradient(45deg, #FF864C, #800080) border-box;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+/* dashboard ends here*/
+
+.question{
+    color: #800080;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.ways{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    flex-wrap: wrap;
+}
+/*Footer css*/
+
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 292px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 12px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: #800080;
+}
+
+@media only screen and (max-width:500px) {
+    .header{
+        margin-left: 35px;
+        margin-top: 24px;
+    }
+    .dashboard{
+        flex-direction: column;
+        justify-content: center;
+        width: 420px;
+    }
+    .balance{
+        width: 358px;
+        height: 198px;
+        flex-direction: row;
+        
+    }
+    .items{
+        width: 302px;
+        flex-direction: row;
+        column-gap: 92px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        row-gap: 1px;
+    }
+    .content{
+        margin-left: 0px;
+
+    }
+    .withdraw-balance{
+        position:absolute;
+        left: 190px;
+        top: 349px;
+    }
+    .referral{
+        width: 357px;
+        height: 165px;
+    }
+    .referral-code{
+        width: 330px;
+    }
+    .ways{
+        flex-direction: column;
+    }
+    .question{
+        margin-top: 0px;
+    }
+    .dashboardpart2{
+        padding: 0px 35px;
+    }
+    .footer{
+        margin-left: 35px;
+    }
+}

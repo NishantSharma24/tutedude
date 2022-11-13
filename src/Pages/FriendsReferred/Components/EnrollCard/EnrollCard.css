@@ -1,0 +1,71 @@
+.enrollcard{
+    width: 358px;
+    height: 228px;
+    color: white;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.enrollcard-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 317px;
+}
+.enrollcard-title{
+    font-weight: 700;
+    font-size: 16px;
+}
+.enrollcard-courses-title{   
+    font-weight: 500;
+    font-size: 14px;
+    margin: 13px 0px;
+}
+.enrollcard-allcourses-scroll{
+    overflow-y: scroll;
+    height: 77px;
+    width: 317px;
+    scrollbar-color: #eeaeae rgba(255, 0, 0, 0);
+    scrollbar-width: 5px;
+}
+.enrollcard-allcourses{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin: 0px 18px;
+}
+.course{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 9px;
+    gap: 10px;
+
+    font-weight: 400;
+    font-size: 14px;
+    border: 1.5px solid #EEAEAE;
+    border-radius: 20px;
+}
+.enrollcard-amount-container{
+    width: 316px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.enrollcard-amount-number{
+    font-weight: 600;
+    font-size: 24px;
+}
+@media screen and (max-width:500px){
+    .enrollcard{
+        padding: 11px 0px;
+        box-sizing: border-box; 
+        width: 350px;
+    }
+}
